@@ -25,7 +25,9 @@
     <property name="build.dir" value="build"/>
     <property name="src.dir" value="src"/>
 
-
+    <property
+            name="ivy.local.default.root"
+            value="${project.basedir}/../../repository/local"/>
     <!-- =================================
           target: load-ivy         
             this target is not necessary if you put ivy.jar in your ant lib directory
